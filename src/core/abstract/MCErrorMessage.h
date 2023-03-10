@@ -4,8 +4,12 @@
 
 #include <MailCore/MCBaseTypes.h>
 
+#ifdef __cplusplus
+
 namespace mailcore {
 String * errorMessageWithErrorCode(ErrorCode errorCode);
 }
+
+#endif
 
 #endif

@@ -11,6 +11,8 @@
 #define MAILCORE_MCLIBETPAN_H
 
 #include <time.h>
+
+#ifdef __cplusplus
 #include <libetpan/libetpan.h>
 
 namespace mailcore {
@@ -23,4 +25,5 @@ namespace mailcore {
     
 }
 
+#endif
 #endif

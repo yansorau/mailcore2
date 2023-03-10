@@ -11,10 +11,12 @@
 
 #include <MailCore/MCBaseTypes.h>
 
+#ifdef __cplusplus
 namespace mailcore {
     
     String * TemporaryDirectoryForZip();
     
 };
+#endif
 
 #endif

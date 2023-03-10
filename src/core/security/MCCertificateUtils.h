@@ -10,6 +10,7 @@
 
 #define MAILCORE_MCCERTIFICATEUTILS_H
 
+#ifdef __cplusplus
 #include <libetpan/libetpan.h>
 #include <MailCore/MCString.h>
 
@@ -18,5 +19,7 @@ namespace mailcore {
     bool checkCertificate(mailstream * stream, String * hostname);
     
 }
+
+#endif
 
 #endif

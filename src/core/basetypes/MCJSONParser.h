@@ -14,6 +14,7 @@
 #include <MailCore/MCICUTypes.h>
 #include <MailCore/MCUtils.h>
 
+#ifdef __cplusplus
 namespace mailcore {
     
     class Data;
@@ -63,5 +64,7 @@ namespace mailcore {
     };
 
 }
+
+#endif
 
 #endif

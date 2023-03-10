@@ -12,7 +12,7 @@
 #if USE_UCHARDET
 #include <uchardet/uchardet.h>
 #else
-#include <unicode/ucsdet.h>
+#include "unicode/ucsdet.h"
 #endif
 #include <libetpan/libetpan.h>
 #if __APPLE__

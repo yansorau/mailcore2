@@ -10,6 +10,7 @@
 
 #define MAILCORE_MCVALUEPRIVATE_H
 
+#ifdef __cplusplus
 enum {
     VALUE_TYPE_NONE = mailcore::ValueTypeNone,
     VALUE_TYPE_BOOL_VALUE = mailcore::ValueTypeBool,
@@ -29,4 +30,5 @@ enum {
     VALUE_TYPE_DATA_VALUE = mailcore::ValueTypeData,
 };
 
+#endif
 #endif
