@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.public_header_files = "Externals/libetpan-ios/include/**/*.h"
   s.requires_arc = false
   s.vendored_libraries = 'Externals/libetpan-ios/lib/*.a'
-  s.prepare_command = "build_for_external=1 ./scripts/build-CZlibetpan-ios.sh"
+  s.prepare_command = "build_for_external=1 ./scripts/build-libetpan-ios.sh"
 end
